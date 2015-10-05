@@ -1,0 +1,32 @@
+{
+  "name": "iso-date",
+  "version": "0.1.0",
+  "description": "Get a ISO date string, i.e. 'YYYY-MM-DD', from a Date",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [
+    "date",
+    "dateformat",
+    "format",
+    "string",
+    "iso",
+    "iso date"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@klei.se"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.2.0",
+    "xo": "^0.9.0"
+  },
+  "repository": "joakimbeng/iso-date",
+  "dependencies": {
+    "is-date-object": "^1.0.1"
+  }
+}
