@@ -1,6 +1,6 @@
 {
   "name": "iso-date",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get a ISO date string, i.e. 'YYYY-MM-DD', from a Date",
   "main": "src/index.js",
   "scripts": {
